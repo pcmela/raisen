@@ -1,0 +1,25 @@
+{
+  "name": "raisen",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "2.0.0",
+    "codemirror": "^5.33.0",
+    "jsforce": "^1.8.0",
+    "react-codemirror": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^1.7.12",
+    "react-scripts": "1.1.0"
+  },
+  "main": "src/electron-starter.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron ."
+  }
+}
